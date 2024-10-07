@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Meteo Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Open Meteo Weather App</h1>
+
+    <!-- Buttons to Select a Location -->
+    <h2>Select a Location:</h2>
+    <button onclick="getWeatherData(35.6895, 139.6917, 'Tokyo')">Tokyo</button>
+    <button onclick="getWeatherData(40.7128, -74.0060, 'New York')">New York</button>
+    <button onclick="getWeatherData(51.5074, -0.1278, 'London')">London</button>
+
+    <!-- Weather Data Section -->
+    <div id="weather-data">
+        Loading weather data...
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

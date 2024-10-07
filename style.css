@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#weather-data {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the buttons */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    margin: 10px; /* Space between buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Style when hovering over the button */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Optional: Center the buttons */
+h2 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
